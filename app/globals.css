@@ -1,0 +1,24 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --gold:#c7a35b; --text:#111; --muted:#6b7280; --border:#e5e7eb; }
+body{ @apply text-neutral-900 bg-white; }
+.container{ @apply max-w-6xl mx-auto px-4; }
+.btn{ @apply inline-block rounded-xl border border-neutral-900 px-4 py-2 transition; }
+.btn-primary{ @apply text-black; background:var(--gold); border-color:var(--gold); }
+.header{ @apply sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-neutral-200; }
+.nav{ @apply flex gap-4 items-center; }
+.footer{ @apply mt-16 border-t border-neutral-200 py-6 text-neutral-600; }
+.hero{ @apply relative grid place-items-center text-center py-28 bg-neutral-100; }
+.hero h1{ @apply font-serif text-5xl tracking-wide; }
+.hero p{ @apply opacity-80 mt-2; }
+.grid-3{ @apply grid gap-6 md:grid-cols-3; }
+.card{ @apply bg-white rounded-2xl border border-neutral-200 shadow-sm overflow-hidden; }
+.card img{ @apply w-full h-52 object-cover; }
+.card-body{ @apply p-4; }
+.brand{ @apply flex items-center gap-3 font-semibold; }
+h1,h2,h3{ @apply font-serif; }
+h2{ @apply text-3xl; }
+.tag{ @apply inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm; }

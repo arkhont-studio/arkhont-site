@@ -1,0 +1,1 @@
+export default function Page(){return(<main className='container my-10'><h1 className='text-4xl font-serif mb-4'>Связаться</h1><div className='max-w-3xl'><p>Email: <a className='underline' href='mailto:info@arkhont.ru'>info@arkhont.ru</a><br/>Тел.: +7 (812) 000‑00‑00</p><p>Готов подключить форму (Formspree или API‑роут) по твоему выбору.</p></div></main>)}

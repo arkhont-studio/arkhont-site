@@ -1,0 +1,1 @@
+export default function Page(){return(<main className='container my-10'><h1 className='text-4xl font-serif mb-4'>Новости</h1><div className='max-w-3xl'><p>Здесь будут публикации о проектах и событиях.</p></div></main>)}

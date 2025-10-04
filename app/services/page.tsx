@@ -1,1 +1,0 @@
-export default function Page(){return(<main className='container my-10'><h1 className='text-4xl font-serif mb-4'>Услуги</h1><div className='max-w-3xl'><ul className='list-disc pl-5'><li>Проектирование храмов и часовен</li><li>Реставрация</li><li>Авторский надзор</li><li>Купола и иконостасы</li></ul></div></main>)}
